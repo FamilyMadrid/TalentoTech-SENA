@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista en HTML</title>
+    <link rel="stylesheet" href="styles_lista_tablas.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>Listas y Tablas en HTML</h1>
+    <h2>Lista Desordenada(Unorder List)</h2>
+    <p>Alimentos Preferidos</p>
+    <ul>
+      <li>Frutas</li>
+      <li>Chocolates</li>
+      <li>Gelatina</li>
+      <li>Comidas Rapidas</li>
+      <li>Yogurt</li>
+    </ul>
+    <hr />
+    <h2>Lista Ordenada(Order List)</h2>
+    <p>Pasos para ser DevWeb</p>
+    <ol>
+      <li>Lógica de Programación</li>
+      <li>Estructuda de Datos</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Dase de Datos</li>
+      <li>Git y GitHub</li>
+      <li>GitBash</li>
+    </ol>
+    <hr />
+    <h2>Listas Anidadas</h2>
+    <p>Requisitos para aprobar el curso</p>
+    <!-- No es correcto incluir una lista <ul> dentro de otra lista <ul> sin envolverla dentro de un elemento <li>. -->
+    <ul>
+      <li>
+        Asistencia
+        <ul>
+          <li>Sea mayor al 80%</li>
+          <li>Permanecia de al menos 2 horas</li>
+        </ul>
+      </li>
+      <li>
+        Participación
+        <ul>
+          <li>Participación activa en clases</li>
+          <li>Presentación de trabajos</li>
+        </ul>
+      </li>
+      <li>Laboratorio</li>
+    </ul>
+    <hr />
+    <h2>Lista de Definición</h2>
+    <dl>
+      <dt class="dt">HTML:</dt>
+      <dd>
+        Lenguaje de Marcado de Hipertexto, el cual permite crear la estructura
+        de una página Web
+      </dd>
+    </dl>
+    <dl>
+      <dt class="dt">CSS:</dt>
+      <dd>Lenguaje de Estilo, permite personalizar nuestro marco html</dd>
+    </dl>
+    <hr />
+    <h2 class="title-tablas">Tabla</h2>
+    <section class="table">
+      <table>
+        <!-- Encabezados o Columnas -->
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+        <!-- filas -->
+        <tr>
+          <!-- celdas -->
+          <td>Carlos</td>
+          <td>Lopez</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Ivan</td>
+          <td>Madrid</td>
+          <td>39</td>
+        </tr>
+        <tr>
+          <td>Ismael</td>
+          <td>Madrid</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Esteban</td>
+          <td>Madrid</td>
+          <td>3</td>
+        </tr>
+      </table>
+    </section>
+    <hr />
+  </body>
+</html>
