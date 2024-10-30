@@ -23,3 +23,18 @@ while (numero >= 0) {
 }
 
 console.log("Terminaste Ingresaste un número negativo para salir");
+
+// Ejercicio 3
+
+let contraseñaCorrecta = "maria123";
+let contraseñaIngresada;
+
+do {
+    contraseñaIngresada = prompt("Ingresa una contraseña: ");
+    if (contraseñaIngresada !== contraseñaCorrecta) {
+        console.log("La contraseña ingresada es incorrecta, intenta nuevamente");
+    }
+} while (contraseñaIngresada !== contraseñaCorrecta);
+
+console.log("Contraseña correcta, Acceso libre");
+
