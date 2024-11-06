@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Itim", cursive; */
+}
+
+.barra-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.5rem;
+  /* border: 2px solid black; */
+}
+
+.icono {
+  margin: 0.5rem;
+  border: 2px solid gray;
+  border-radius: 0.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  color: rgb(39, 106, 106);
+  font-weight: 700;
+  /* border: 2px solid black; */
+}
+
+.titulo-principal {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: rgb(39, 106, 106);
+}
+
+.h2,
+.h3, strong {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: rgb(39, 106, 106);
+}
+
+.imagen-html {
+    display: flex;
+    height: 8rem;    
+} 
+
+p {
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+button {
+    margin-top: 1.5rem;
+    padding: 0.3rem;
+    background-color:rgb(39, 106, 106);
+    color: white;
+    border-radius: 0.5rem ;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5rem;
+}
