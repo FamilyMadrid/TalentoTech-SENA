@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 3rem;
+}
+
+.menu-imagen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  /* border: 2px solid black; */
+}
+
+.imagen-formulario {
+  height: 4rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(25, 134, 134);
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 650;
+  margin-right: 1rem;
+}
+
+h2 {
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: rgb(25, 134, 134);
+}
+
+.formulario label {
+    display: block;
+    margin-top: 1rem;
+    font-family: "Titillium Web", sans-serif;
+
+}
+
+.formulario input[type="text"], 
+.formulario input[type="email"], 
+.formulario input[type="password"], 
+.formulario input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    margin: 0.5rem;
+    padding: 0.2rem;
+    font-family: "Titillium Web", sans-serif;
+    background-color: rgb(36, 181, 181);
+    color: white;
+    font-weight: 600;
+    /* border: 0.5rem solid white; */
+    border-radius: 0.5rem;
+}
+
+.formulario button:hover {
+    background-color: #557bbf;
+}
+
+#ver-imagen {
+    display: block;
+    margin: 5rem auto;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0 0 0 0.2);
+}
