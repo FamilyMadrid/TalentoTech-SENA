@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 3rem;
+  background-color: rgb(25, 24, 24);
+  color: rgba(255, 255, 255, 0.951);
+  /* font-family: "Titillium Web", serif; */
+  font-family: "Smooch Sans", sans-serif;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 1.4rem;
+}
+
+.biografia p {
+  text-align: justify;
+  line-height: 1.5rem;
+  font-size: 1.15rem;
+  font-family: "Titillium Web", serif;
+}
+
+.titulo-habilidades {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Titillium Web", serif;
+
+}
+
+.order li {
+  margin: 0.5rem 0rem 0.5rem 2rem;
+  font-family: "Titillium Web", serif;
+  font-size: 1.1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    margin-top: 2rem;
+    padding: 0.8rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    max-width: 450px;
+    text-align: center;
+}
+
+.titulo-formulario {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-family: "Titillium Web", serif;
+
+}
+
+.s {
+    padding: 0.5rem;
+}
+
+label {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+input {
+    border-radius: 0.3rem;
+    width: 350px;
+    height: 24px;
+}
+
+button {
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+    margin-left: 0.4rem;
+    background-color: rgb(62, 59, 59);
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 6rem;
+  font-family: "Titillium Web", serif;
+  font-weight: 520;
+}
