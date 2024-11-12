@@ -6,16 +6,22 @@
 }
 
 body {
-  margin: 3rem;
-  background-color: rgb(25, 24, 24);
+  margin: 1rem auto;
+  background-color: rgb(19, 28, 41);
   color: rgba(255, 255, 255, 0.951);
   /* font-family: "Titillium Web", serif; */
   font-family: "Smooch Sans", sans-serif;
+  border: 1px solid white;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  max-width: 40rem;
 }
 
 .images {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  margin: 0.7rem;
 }
 
 .titulo {
@@ -26,9 +32,10 @@ body {
 
 .biografia p {
   text-align: justify;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   font-size: 1.15rem;
   font-family: "Titillium Web", serif;
+  padding: 1rem;
 }
 
 .titulo-habilidades {
@@ -36,7 +43,6 @@ body {
   font-size: 1.5rem;
   text-align: center;
   font-family: "Titillium Web", serif;
-
 }
 
 .order li {
@@ -46,50 +52,49 @@ body {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .formulario {
-    margin-top: 2rem;
-    padding: 0.8rem;
-    border: 1px solid white;
-    border-radius: 0.5rem;
-    max-width: 450px;
-    text-align: center;
+  margin-top: 2rem;
+  padding: 0.8rem;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  max-width: 450px;
+  text-align: center;
 }
 
 .titulo-formulario {
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-    font-family: "Titillium Web", serif;
-
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  font-family: "Titillium Web", serif;
 }
 
 .s {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 label {
-    margin-right: 0.5rem;
-    font-size: 1.2rem;
-    font-weight: 500;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 input {
-    border-radius: 0.3rem;
-    width: 350px;
-    height: 24px;
+  border-radius: 0.3rem;
+  width: 350px;
+  height: 24px;
 }
 
 button {
-    margin-top: 0.5rem;
-    padding: 0.2rem;
-    margin-left: 0.4rem;
-    background-color: rgb(62, 59, 59);
-    color: white;
-    border: 1px solid white;
-    border-radius: 0.2rem;
+  margin-top: 0.5rem;
+  padding: 0.2rem;
+  margin-left: 0.4rem;
+  background-color: rgb(62, 59, 59);
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.2rem;
 }
 
 .contacto {
