@@ -4,3 +4,7 @@ def mensaje():
 
 #  Llamando la función
 mensaje()
+
+# Función con parámetros y sin retorno
+
+# Función con parámetros y con retorno
