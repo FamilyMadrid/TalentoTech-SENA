@@ -1,7 +1,6 @@
-# Función con parámetros y sin retorno
-def suma(a,b):
-    resultado = a + b
-    print(f"La suma es: {resultado}")
+# Función con parámetros por defecto
 
-#  Llmando la función
-suma(20, 40)
+def potencia(base, exponente=2):
+    return base ** exponente
+print(potencia(6))
+print(potencia(2, 3))
