@@ -1,3 +1,5 @@
+"""Hola Python"""
+
 def hola(nombre, apellido="Madrid"):
     print("Hola Mundo")
     print(f"Ultime {nombre} {apellido}")
@@ -5,4 +7,3 @@ def hola(nombre, apellido="Madrid"):
 
 hola("Ivan", "Madrid")
 hola("Ivan")
-

@@ -1,6 +1,2 @@
-# Función sin parámetros y sin retorno
-
-def saludar ():
-    print("Hola Ivan, no te rindas. Tú lo puedes lograr")
-
-saludar()
+# Declarar y llamar a una función
+def # Declaro la función mediante la palabra reservada def
